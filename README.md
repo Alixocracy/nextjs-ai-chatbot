@@ -53,4 +53,4 @@ The app sends user chat content and selected tool context to LLM providers throu
 
 ## License
 
-MIT - see [LICENSE](./LICENSE).
+Apache-2.0 - see [LICENSE](./LICENSE).
