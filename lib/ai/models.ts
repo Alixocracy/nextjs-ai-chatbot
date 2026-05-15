@@ -1,5 +1,5 @@
-// Curated list of top models from Vercel AI Gateway
-export const DEFAULT_CHAT_MODEL = "google/gemini-2.5-flash-lite";
+// Curated list of models routed through the Agnic AI Gateway
+export const DEFAULT_CHAT_MODEL = "openai/gpt-4o-mini";
 
 export type ChatModel = {
   id: string;
@@ -29,6 +29,12 @@ export const chatModels: ChatModel[] = [
     description: "Most capable Anthropic model",
   },
   // OpenAI
+  {
+    id: "openai/gpt-4o-mini",
+    name: "GPT-4o Mini",
+    provider: "openai",
+    description: "Fast and cost-effective default model",
+  },
   {
     id: "openai/gpt-4.1-mini",
     name: "GPT-4.1 Mini",
